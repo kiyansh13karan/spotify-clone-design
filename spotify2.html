@@ -1,0 +1,1000 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <meta name="description" content="Spotify clone made using html,css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="spotify.css" />
+    <link rel=" shortcut icon" type="x-icon" href="logo.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+<body>
+
+<div class="container">
+    <div class="sidebar">
+      <div class="top-icons">
+        <div class="spotify-logo">
+          <a href="https://www.spotify.com" target="_blank" ><img src="Spotify_Logo-png-RGB-Green.png"  class="logo-of-spotify"  alt=""></a>
+        </div>
+        <div class="link-flex">
+          <a href="https://www.spotify.com"  target="_blank" ><img src="home.png" alt="Home" /></a>
+          <a href="https://www.spotify.com"  target="_blank" >Home</a>
+        </div>
+        <div class="link-flex">
+          <a href="https://open.spotify.com/search" target="_blank" ><img src="search.png" alt="Search" /></a>
+          <a href="https://open.spotify.com/search"  target="_blank" >Search</a>
+        </div>
+</div>
+
+<div class="library">
+  <div class="flex-top">
+    <div class="link-flex">
+      <img src="playlist.png" alt="Library" />
+      <a href="https://www.spotify.com" target="_blank" ><p>Your Library</p></a>
+    </div>
+    <div class="link-flex">
+      <a href="https://www.spotify.com" target="_blank" ><img src="plus.png" /></a>
+      <a href="https://www.spotify.com" target="_blank" ><img src="arrow (2).jpeg" /></a>
+    </div>
+  </div>
+  <div class="link-flex" style="gap: 0.5rem">
+    <a href="https://www.spotify.com" target="_blank" ><div class="chip"   id="playlist" >Playlists</div></a>
+    <a href="https://www.spotify.com"  target="_blank"><div class="chip"   id="playlist" >Artists</div></a>
+    <a href="https://www.spotify.com"  target="_blank"><div class="chip"   id="playlist"  >Podcasts & Shows</div></a>
+  </div>
+  <div class="flex-top-2">
+    <a href="https://www.spotify.com"  target="_blank"><img src="search.png" /> </a>
+    <a href="https://www.spotify.com"  target="_blank"><p>Recents</p></a>
+  </div>
+  <div class="albums">
+    <div class="link-flex-2 album-flex">
+       <a href="https://open.spotify.com/collection/tracks"  target="_blank"><img src="bright-heart-neon-sign-retro-2524517.jpg" class="album-cover" /></a>
+      <div class="col-flex">
+        <a href="https://open.spotify.com/collection/tracks"  target="_blank"><p class="album-name">Liked Songs     <i class="fa-regular fa-heart"></i> </p></a>
+        <a href="https://open.spotify.com/collection/tracks"  target="_blank"><p>  📌 Playlist &#x2022; 150 songs</p></a>
+      </div>
+    </div>
+     
+    <div class="link-flex-2 album-flex">
+      <a href="https://www.spotify.com"  target="_blank"><img src="Yaarian-1.jpg" class="album-cover" /></a>
+      <div class="col-flex">
+        <a href="https://open.spotify.com/track/2hSs1KXhWnbsSpUYe57Pii"  target="_blank"><p class="album-name">Yaarian</p></a>
+        <a href="https://open.spotify.com/track/2hSs1KXhWnbsSpUYe57Pii"><p>Jass Manak , Asees Kaur</p></a>
+      </div>
+    </div>
+    <div class="link-flex-2 album-flex">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX70RN3TfWWJh"  target="_blank"><img src="workout (2).jpeg" class="album-cover" /></a>
+      <div class="col-flex">
+        <a href="https://open.spotify.com/playlist/37i9dQZF1DX70RN3TfWWJh"  target="_blank"><p class="album-name">Workout</p></a>                               
+        <a href="https://open.spotify.com/playlist/37i9dQZF1DX70RN3TfWWJh"  target="_blank"><p>Playlist &#x2022; Karan Nayal </p></a>
+      </div>
+    </div>
+    <div class="link-flex-2 album-flex">
+      <a href="https://open.spotify.com/track/69fYMBLB7VP6rs8NSJJUIz"  target="_blank"><img src="punjabi mashup 2019.jpeg"    class="album-cover" /></a>
+      <div class="col-flex">
+        <a href=" https://open.spotify.com/track/69fYMBLB7VP6rs8NSJJUIz"  target="_blank"><p class="album-name">Punjabi Mashup 2019</p></a>
+        <a href="https://open.spotify.com/track/69fYMBLB7VP6rs8NSJJUIz"  target="_blank"><p>Playlist &#x2022; Spotify</p></a>
+      </div>
+    </div>
+    <div class="link-flex-2 album-flex">
+      <a href="https://open.spotify.com/playlist/4dqKy3GXjFUk30fwcTm6d6"  target="_blank"><img src="kumouni songs 2023.jpeg" class="album-cover" /></a>
+      <div class="col-flex">
+        <a href="https://open.spotify.com/playlist/4dqKy3GXjFUk30fwcTm6d6"  target="_blank"><p class="album-name">Kumauni Songs 2023</p></a>
+        <a href="https://open.spotify.com/playlist/4dqKy3GXjFUk30fwcTm6d6"  target="_blank"><p>Playlist &#x2022; Karan Nayal </p></a>
+      </div>
+    </div>
+    <div class="link-flex-2 album-flex">
+      <a href=" https://open.spotify.com/track/0czcoKJbJt08NqKrvSbbz7"   target="_blank"><img src="o bedardeya.jpeg" class="album-cover" /></a>
+      <div class="col-flex">
+        <a href="https://open.spotify.com/track/0czcoKJbJt08NqKrvSbbz7"  target="_blank"><p class="album-name">O Bedardeya (From "Tu Jhoothi Main Makkaar" )</p></a>
+        <a href="https://open.spotify.com/track/0czcoKJbJt08NqKrvSbbz7"  target="_blank"><p>Playlist &#x2022; Spotify</p></a>
+      </div>
+    </div>
+    <div class="link-flex-2 album-flex">
+      <a href="https://open.spotify.com/track/3mfAU9hPfv4Bqoru1sA4bn"  target="_blank" ><img src="haryana hood.jpeg" class="album-cover" /></a>
+      <div class="col-flex">
+        <a href="https://open.spotify.com/track/3mfAU9hPfv4Bqoru1sA4bn"><p class="album-name">Haryana Hood </p></a>
+        <a href="https://open.spotify.com/track/3mfAU9hPfv4Bqoru1sA4bn"  target="_blank"><p>Playlist &#x2022; Spotify</p></a>
+      </div>
+    </div>
+    <div class="link-flex-2 album-flex">
+      <a href="https://open.spotify.com/track/2b9few9ebpqymSAjZpOtCd"  target="_blank"><img src="company.jpeg" class="album-cover" /></a>
+      <div class="col-flex">
+        <a href="https://open.spotify.com/track/2b9few9ebpqymSAjZpOtCd"   target="_blank" ><p class="album-name">Company </p></a>
+        <a href="https://open.spotify.com/track/2b9few9ebpqymSAjZpOtCd"   target="_blank"  ><p>Emiway  &#x2022; Spotify</p></a>
+      </div>
+    </div>
+    <div class="link-flex-2 album-flex">
+      <a href="https://open.spotify.com/album/64MZHXV7IglO8LE8KplSRw"  target="_blank"><img src="california love.jpeg" class="album-cover" /></a>
+      <div class="col-flex">
+        <a href="https://open.spotify.com/album/64MZHXV7IglO8LE8KplSRw"  target="_blank"><p class="album-name">California Love </p></a>
+        <a href="https://open.spotify.com/album/64MZHXV7IglO8LE8KplSRw"  target="_blank" ><p>Playlist &#x2022; Spotify</p></a>
+      </div>
+    </div>
+    <div class="link-flex-2 album-flex">
+      <a href="https://open.spotify.com/track/7kJPHmxxjGqaaCR08f2Mv0"  target="_blank"><img src="obessed x rubicon.jpg" class="album-cover" /></a>
+      <div class="col-flex">
+        <a href="https://open.spotify.com/track/7kJPHmxxjGqaaCR08f2Mv0"   target="_blank"><p class="album-name">Obsessed x Rubicon Drill - LoFi Mix </p></a>
+        <a href="https://open.spotify.com/track/7kJPHmxxjGqaaCR08f2Mv0"  target="_blank"> <p>Playlist &#x2022; Spotify</p></a>
+      </div>
+    </div>
+    <div class="link-flex-2 album-flex">
+      <a href=" https://open.spotify.com/album/1DgIFH0yAPRPGBeCiJBvDv"  target="_blank"><img src="laung da lashkara.jpeg" class="album-cover" /></a>
+      <div class="col-flex">
+        <a href="https://open.spotify.com/album/1DgIFH0yAPRPGBeCiJBvDv"  target="_blank" > <p class="album-name">Laung Da Lashkara </p></a>
+        <a href="https://open.spotify.com/album/1DgIFH0yAPRPGBeCiJBvDv"  target="_blank"  >   <p>Playlist &#x2022; Spotify</p> </a>
+      </div>
+    </div>
+    <div class="link-flex-2 album-flex">
+      <a href="https://open.spotify.com/track/6ep8K2GpBFTAGcIyJWOjFP"   target="_blank" ><img src="9-9.jpeg" class="album-cover" /></a>
+      <div class="col-flex">
+        <a href="https://open.spotify.com/track/6ep8K2GpBFTAGcIyJWOjFP"  target="_blank" ></a>
+        <a href="https://open.spotify.com/track/6ep8K2GpBFTAGcIyJWOjFP"    target="_blank" ><p class="album-name">9-9 Mashukan </p></a>
+        <a href="https://open.spotify.com/track/6ep8K2GpBFTAGcIyJWOjFP"   target="_blank" ><p>Playlist &#x2022; Spotify</p></a>
+      </div>
+    </div>
+    <div class="link-flex-2 album-flex">
+      <a href="https://open.spotify.com/track/7KYItmZqiTnvfuO42oc6Og"  target="_blank"><img src="agar tu hota.jpeg" class="album-cover" /></a>
+      <div class="col-flex">
+        <a href="https://open.spotify.com/track/7KYItmZqiTnvfuO42oc6Og"  target="_blank"><p class="album-name">Agar Tu Hota </p></a>
+        <a href="https://open.spotify.com/track/7KYItmZqiTnvfuO42oc6Og"  target="_blank"><p>Playlist &#x2022; Spotify</p></a>
+      </div>
+    </div>
+    <div class="link-flex-2 album-flex">
+      <a href="https://open.spotify.com/album/5ttTxVSSDQXX6NmB9UlMK4"  target="_blank" ><img src="tum se hi.jpeg" class="album-cover" /></a>
+      <div class="col-flex">
+        <a href="https://open.spotify.com/album/5ttTxVSSDQXX6NmB9UlMK4"  target="_blank"><p class="album-name">Tum Se Hi-LoFi</p></a>
+        <a href="https://open.spotify.com/album/5ttTxVSSDQXX6NmB9UlMK4"  target="_blank" > <p>Playlist &#x2022; Spotify</p></a>
+      </div>
+    </div>
+    <div class="link-flex-2 album-flex">
+      <a href="https://open.spotify.com/track/6FAYpZ4jve8vpvTwUvjK6H"  target="_blank" >  <img src="pathan.jpeg" class="album-cover" /></a>
+      <div class="col-flex">
+        <a href="https://open.spotify.com/track/6FAYpZ4jve8vpvTwUvjK6H"  target="_blank"><p class="album-name">Jhoome Jo Pathaan </p></a>
+        <a href="https://open.spotify.com/track/6FAYpZ4jve8vpvTwUvjK6H"><p>Playlist &#x2022; Spotify</p></a>
+      </div>
+    </div>
+    <div class="link-flex-2 album-flex">
+      <a href="https://open.spotify.com/track/2LlJoY7RdkbozvSXg92anS"  target="_blank" >  <img src="sajan raazi.jpeg" class="album-cover" /> </a>
+      <div class="col-flex">
+        <a href="https://open.spotify.com/track/2LlJoY7RdkbozvSXg92anS"  target="_blank"><p class="album-name">Sajjan Raazi  </p></a>
+        <a href="https://open.spotify.com/track/2LlJoY7RdkbozvSXg92anS"><p>Playlist &#x2022; Spotify</p></a>
+      </div>
+    </div>
+    <div class="link-flex-2 album-flex">
+      <a href="https://open.spotify.com/track/12V0iduYsoXxsQYTSeFB2H"  target="_blank" >  <img src="jass manak.webp" class="album-cover" /> </a>
+      <div class="col-flex">
+        <a href="https://open.spotify.com/track/12V0iduYsoXxsQYTSeFB2H"  target="_blank"><p class="album-name">Viah </p></a>
+        <a href="https://open.spotify.com/track/12V0iduYsoXxsQYTSeFB2H"><p>Playlist &#x2022; Spotify</p></a>
+      </div>
+    </div>
+    <div class="link-flex-2 album-flex">
+      <a href="https://open.spotify.com/track/65c6VCikt7f5sAS1heoYQC"  target="_blank" >  <img src="wala.jpeg" class="album-cover" /> </a>
+      <div class="col-flex">
+        <a href="https://open.spotify.com/track/65c6VCikt7f5sAS1heoYQC"  target="_blank"><p class="album-name">Same Beef </p></a>
+        <a href="https://open.spotify.com/track/65c6VCikt7f5sAS1heoYQC"><p>Playlist &#x2022; Spotify</p></a>
+      </div>
+    </div> 
+    <div class="link-flex-2 album-flex">
+      <a href="https://open.spotify.com/track/2LlJoY7RdkbozvSXg92anS"  target="_blank" >  <img src="sajan raazi.jpeg" class="album-cover" /> </a>
+      <div class="col-flex">
+        <a href="https://open.spotify.com/track/2LlJoY7RdkbozvSXg92anS"  target="_blank"><p class="album-name">Sajjan Raazi  </p></a>
+        <a href="https://open.spotify.com/track/2LlJoY7RdkbozvSXg92anS"><p>Playlist &#x2022; Spotify</p></a>
+      </div>
+    </div>
+  </div>
+
+       <!-- Now  we start main content  -->
+</div>
+</div>
+
+<div class="main-content">
+  <div class="navbar">
+    <div class="link-flex">
+      <img src="back_navigation.png" />
+    <img src="forward_navigation.png" />
+    </div>
+    <!-- Navbar content -->
+    <div class="link-flex" style="gap: 0; column-gap: 0.5rem">
+      <div class="chip-1">Explore Premium </div>
+      <div class="chip-2">Install App</div>
+      <i class="fa-regular fa-user"  id="user" ></i>
+    </div>
+  </div>
+  <h3   style="margin-bottom: 2rem;  margin-left: 0.75rem; font-size: 1.6rem; "  >Recently Played</h3>
+  <div class="cards-container">
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX70RN3TfWWJh"  target="_blank"><img src="workout (2).jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX70RN3TfWWJh"  target="_blank"><p class="card-name">Workout</p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX70RN3TfWWJh"  target="_blank"><p class="card-description">Pop hits to keep you fresh!</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/track/0czcoKJbJt08NqKrvSbbz7"  target="_blank"><img src="o bedardeya.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/track/0czcoKJbJt08NqKrvSbbz7"  target="_blank"><p class="card-name">O Bedardeya</p></a>
+      <a href="https://open.spotify.com/track/0czcoKJbJt08NqKrvSbbz7"  target="_blank"><p class="card-description">Pritam  &#x2022;  ( From "Tu Jhoothi Main Makkaar" ) </p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DXdpQPPZq3F7n"  target="_blank"><img src="bollywood-mush.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DXdpQPPZq3F7n"  target="_blank"><p class="card-name">Bollywood Mush</p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DXdpQPPZq3F7n"  target="_blank"><p class="card-description">Let these songs be the background score to........</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/album/49n3zBOAOR8vJN7lTmt2OW"  target="_blank"><img src="Jee-Karda-Punjabi-2020-20200605162813-500x500.jpg" class="card-img" /></a>
+      <a href=" https://open.spotify.com/album/49n3zBOAOR8vJN7lTmt2OW"  target="_blank"><p class="card-name">Jee Krda </p></a>
+      <a href="https://open.spotify.com/album/49n3zBOAOR8vJN7lTmt2OW"  target="_blank"><p class="card-description">GKhan , Khan saab , Mehar vaani  </p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWXtlo6ENS92N"  target="_blank"><img src="butter.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWXtlo6ENS92N"  target="_blank"><p class="card-name">Bollywood Butter </p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWXtlo6ENS92N"  target="_blank"><p class="card-description">Pop hits to keep you fresh!</p></a>
+    </div>
+  </div>
+  
+  <h3   style="margin-top: 4rem;  margin-bottom: 2rem; margin-left: 0.75rem;  font-size: 1.6rem;"   >Recommended for You     <a href="https://www.spotify.com"  class="show-all-1" >Show all </a>   </h3> 
+  <div class="cards-container">
+    <div class="card">
+      <a href="https://open.spotify.com/artist/1wRPtKGflJrBx9BmLsSwlU"  target="_blank"><img src="default.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/artist/1wRPtKGflJrBx9BmLsSwlU"><p class="card-name">Daily Mix 1</p></a>
+      <a href="https://open.spotify.com/artist/1wRPtKGflJrBx9BmLsSwlU"  target="_blank"><p class="card-description">Pritam , Ankit Tiwari , A.R. Rahman and more </p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/artist/6VX140YNrqkmdceBjUOIAo"  target="_blank"><img src="mix2.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/artist/6VX140YNrqkmdceBjUOIAo"  target="_blank"><p class="card-name">Daily Mix 2 </p></a>
+      <a href="https://open.spotify.com/artist/6VX140YNrqkmdceBjUOIAo"  target="_blank"><p class="card-description">Rabiul Rhmn , Krishan Singh , Kulz amd more </p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZEVXcWNtS53XMH9j"  target="_blank"> <img src="discover-weekly.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZEVXcWNtS53XMH9j"  target="_blank"><p class="card-name">Discover Weekly </p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZEVXcWNtS53XMH9j" target="_blank"><p class="card-description">Your weekly mixtape of fresh music . </p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/track/259H7bRtlFmsIxmkus2uGu"  target="_blank"> <img src="labon ko recomended.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/track/259H7bRtlFmsIxmkus2uGu"  target="_blank"><p class="card-name">Labon Ko </p></a>
+      <a href="https://open.spotify.com/track/259H7bRtlFmsIxmkus2uGu"  target="_blank"><p class="card-description">Uday Biswas  &#x2022;  Pop hits to keep you fresh!</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWXVJK4aT7pmk"  target="_blank"><img src="hits.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWXVJK4aT7pmk"  target="_blank"> <p class="card-name">Hot Hits Punjabi </p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWXVJK4aT7pmk"  target="_blank"><p class="card-description">Catch the hottest Punjabi tracks with  Sidhu Mo.... </p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/2xt1bPRXzF14EpBNZ69h0u"  target="_blank"><img src="mix3.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/2xt1bPRXzF14EpBNZ69h0u"  target="_blank"><p class="card-name">Daily Mix 3 </p></a>
+      <a href="https://open.spotify.com/playlist/2xt1bPRXzF14EpBNZ69h0u"  target="_blank"><p class="card-description">Pop hits to keep you fresh!</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX14CbVHtvHRB"  target="_blank"><img src="phir aur.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX14CbVHtvHRB"  target="_blank"><p class="card-name">Trending Valentine</p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX14CbVHtvHRB"  target="_blank"></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX14CbVHtvHRB"  target="_blank"><p class="card-description">India's ultimate Love, Playlist cover - vicky .....</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DXdR77H5Z8MIM"  target="_blank"> <img src="nolja.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DXdR77H5Z8MIM"  target="_blank"><p class="card-name">Nolja!</p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DXdR77H5Z8MIM"  target="_blank"><p class="card-description">Time to press play on these jaem jams  </p></a>
+    </div>
+  </div>
+  <h3  style="margin-top: 4rem;  margin-bottom: 2rem;  margin-left: 0.75rem;  font-size: 1.6rem; " >Fresh New Music         <a href="https://www.spotify.com"  class="show-all-2" >Show all  </a>    </h3>
+  <div class="cards-container">
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DXd8cOUiye1o2" target="_blank"><img src="new-music-hindi.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DXd8cOUiye1o2"  target="_blank"><p class="card-name">New Music Hindi </p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DXd8cOUiye1o2"  target="_blank"><p class="card-description">Catch the latest Hindi songs of the week .....</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/5yYhOAlUgBGAFDIBKNZjre"  target="_blank"><img src="best punjabi songs.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/5yYhOAlUgBGAFDIBKNZjre"  target="_blank"><p class="card-name">Best Punjabi So.. </p></a>
+      <a href="https://open.spotify.com/playlist/5yYhOAlUgBGAFDIBKNZjre"  target="_blank"><p class="card-description">Hot Hits , New Punjabi Songs </p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DXdpQPPZq3F7n"  target="_blank"> <img src="bollywood-mush.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DXdpQPPZq3F7n"  target="_blank"> <p class="card-name">Bollywood Mush</p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DXdpQPPZq3F7n"  target="_blank"><p class="card-description">Let these songs be the background score to........</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX3txqabhtJQF"  target="_blank"><img src="new in dance.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX3txqabhtJQF"  target="_blank"><p class="card-name">New in Dance  </p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX3txqabhtJQF"  target="_blank"> <p class="card-description">Your Weekly floor filters. Cover- Rocky Aur Ran.....</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DXbVhgADFy3im"  target="_blank"><img src="trending.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DXbVhgADFy3im"  target="_blank"><p class="card-name">Trending New In...</p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DXbVhgADFy3im" target="_blank"><p class="card-description">Every Track You're listening/should be.....</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWXVJK4aT7pmk"  target="_blank"><img src="hits.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWXVJK4aT7pmk"  target="_blank"><p class="card-name">Hot Hits Punjabi </p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWXVJK4aT7pmk"  target="_blank"><p class="card-description">Catch the hottest punjabi tracks with Sidhu....</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWXtlo6ENS92N"  target="_blank"><img src="butter.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWXtlo6ENS92N"  target="_blank"><p class="card-name">Bollywood Butter</p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWXtlo6ENS92N" target="_blank"><p class="card-description">B bole to Biggest blockbusters , right her </p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/3OXGUdJY5HIjGu7uXv9nSA"  target="_blank"><img src="workout.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/3OXGUdJY5HIjGu7uXv9nSA"  target="_blank"> <p class="card-name">Workout</p></a>
+      <a href="https://open.spotify.com/playlist/3OXGUdJY5HIjGu7uXv9nSA"  target="_blank"><p class="card-description">Pop hits to keep you fresh!</p></a>
+    </div>
+  </div>
+  <h3  style="margin-top: 4rem;  margin-bottom: 2rem;  margin-left: 0.75rem;  font-size: 1.6rem;" >Your Top Mixes     <a href="https://www.spotify.com"  class="show-all-3" >Show all </a>       </h3>
+  <div class="cards-container">
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1EQn4jwNIohw50"  target="_blank"><img src="pritam mix.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1EQn4jwNIohw50"  target="_blank"> <p class="card-name">2000s Mix</p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1EQn4jwNIohw50"  target="_blank"><p class="card-description">Pritam , Eminem , Salim- Sulaiman and more  </p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1EQn2GRFTFMl2A"  target="_blank"><img src="90s mixed.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1EQn2GRFTFMl2A"  target="_blank"><p class="card-name">90s Mix </p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1EQn2GRFTFMl2A"  target="_blank"><p class="card-description">INTERWORLD , Pankaj Udhas , Anbhijeet and......</p></a> 
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/artist/1IEqJhjUAA0qZ6L020TQdt"  target="_blank"><img src="shrylox mix.jpeg" class="card-img" /></a>
+   <a href="https://open.spotify.com/artist/1IEqJhjUAA0qZ6L020TQdt"  target="_blank"><p class="card-name">Shrylox Mix </p></a>
+   <a href="https://open.spotify.com/artist/1IEqJhjUAA0qZ6L020TQdt"  target="_blank"> <p class="card-description">Sunny Yaduvanshi , mr.krishnaprajapati  an...</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/artist/1mYsTxnqsietFxj1OgoGbG"  target="_blank"><img src="A R Rahman mix.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/artist/1mYsTxnqsietFxj1OgoGbG"  target="_blank"><p class="card-name">A.R. Rahman Mix</p></a>
+      <a href="https://open.spotify.com/artist/1mYsTxnqsietFxj1OgoGbG"  target="_blank"> <p class="card-description">Pritam , Alka yagnik and Anirudh Ravichander</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/artist/5wispYazJIPHaAEPUvF6Q1"  target="_blank"> <img src="mrkrishnaprajapati.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/artist/5wispYazJIPHaAEPUvF6Q1"  target="_blank"><p class="card-name">mr.krishnaprajapa...</p></a>
+      <a href="https://open.spotify.com/artist/5wispYazJIPHaAEPUvF6Q1"  target="_blank"><p class="card-description">Sunny Yaduvanshi , WEROMIX MUSIC an...</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/354WDR3fxfPLNPKfKsXGtd"  target="_blank"><img src="tamil mix.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/354WDR3fxfPLNPKfKsXGtd"  target="_blank"> <p class="card-name">Tamil Mix </p></a>
+      <a href="https://open.spotify.com/playlist/354WDR3fxfPLNPKfKsXGtd"  target="_blank"><p class="card-description">Thaman S , Dhibu Ninan Thomas , llaiyaraaja</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1EQncLwOalG3K7"  target="_blank"><img src="pop mix.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1EQncLwOalG3K7"  target="_blank"><p class="card-name">Pop Mix </p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1EQncLwOalG3K7" target="_blank"><p class="card-description">Harry Styles , Ed Sheeran , One Direct....</p></a> 
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/track/45BLj87pudFLjTQdx6oABI" target="_blank"><img src="hindi mix.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/track/45BLj87pudFLjTQdx6oABI"  target="_blank"><p class="card-name"> Hot Hindi Mix </p></a>
+      <a href="https://open.spotify.com/track/45BLj87pudFLjTQdx6oABI"><p class="card-description">JalRaj , Pritam and more  <br>
+        &#x2022;  Spotify </p></a>
+    </div>
+  </div>
+  <h3  style="margin-top: 4rem;  margin-bottom: 2rem;  margin-left: 0.75rem;   font-size: 1.6rem;  " >Throwback        <a href="https://www.spotify.com"  class="show-all-4" >Show all </a>      </h3>
+  <div class="cards-container">
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWZNJXX2UeBij"  target="_blank"><img src="all out.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWZNJXX2UeBij"  target="_blank"><p class="card-name">All Out oo's Hindi </p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWZNJXX2UeBij"  target="_blank"><p class="card-description">Bollywood Songs that ruled hearts in the...</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DXa6iPZDThhLh" target="_blank"><img src="90s love hits.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DXa6iPZDThhLh" target="_blank"><p class="card-name">90s Love Hits </p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DXa6iPZDThhLh"  target="_blank"><p class="card-description">Relive the '90s with these beautiful romantic an.....</p></a>
+    </div>
+    <div class="card">
+      <a href="37i9dQZF1DWWQ4RVrwACVr"  target="_blank"><img src="90s swagger.jpeg" class="card-img" /></a>
+      <a href="37i9dQZF1DWWQ4RVrwACVr"  target="_blank"><p class="card-name">90s Swagger</p></a>
+      <a href="37i9dQZF1DWWQ4RVrwACVr"  target="_blank"><p class="card-description">Everything from cheesy floor-filters to big beat.....</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX5Ejj0EkURtP"  target="_blank"><img src="all out 2010s.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX5Ejj0EkURtP"  target="_blank"><p class="card-name">All Out 2010s</p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX5Ejj0EkURtP"  target="_blank"><p class="card-description">The Biggest Songs of the 2010s.</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DXdcRZAcc2QFU"  target="_blank"><img src="90s dance bollywood.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DXdcRZAcc2QFU"  target="_blank"><p class="card-name">90s Dance Bolly.... </p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DXdcRZAcc2QFU"  target="_blank"><p class="card-description">Get jiggy with 90s 'dhinchak' beats . Cove,..</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWUXxc8Mc6MmJ"  target="_blank"><img src="best of korean soundtrack.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWUXxc8Mc6MmJ" target="_blank"><p class="card-name">Best of Korean s...</p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWUXxc8Mc6MmJ"  target="_blank"><p class="card-description">Relive your favourite K-Drama moments wit...</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWVSNuGesVjDz"  target="_blank"> <img src="oos chill tamil.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWVSNuGesVjDz" target="_blank"><p class="card-name">OOs Chill Tamil</p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWVSNuGesVjDz"  target="_blank"><p class="card-description">Soothing Hits from OOs Cover : Trisha </p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DXdR77H5Z8MIM"  target="_blank"><img src="nolja.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DXdR77H5Z8MIM"  target="_blank"><p class="card-name">Nolja!</p> </a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DXdR77H5Z8MIM"  target="_blank"> <p class="card-description">Time to press play on these jaem jams from....</p></a>
+    </div>
+  </div>
+  <h3  style="margin-top: 4rem;  margin-bottom: 2rem;  margin-left: 0.75rem;  font-size: 1.6rem;" >Suggested  artist          <a href="https://www.spotify.com"  class="show-all-5" >Show all  </a>     </h3>
+  <div class="cards-container">
+    <div class="card-2">
+      <a href="https://open.spotify.com/artist/5mwIOWRNkigQI3oclBphHE" target="_blank"><img src="artist ayush rai.jpeg" class="card-2-img" /></a>
+      <a href="https://open.spotify.com/artist/5mwIOWRNkigQI3oclBphHE"  target="_blank"><p class="card-name">Ayush Rai </p></a>
+      <a href="https://open.spotify.com/artist/5mwIOWRNkigQI3oclBphHE"  target="_blank"> <p class="card-description">Artist</p></a>
+      <br> 
+    </div>
+    <div class="card-2">
+      <a href="https://open.spotify.com/artist/2P9JaCtpbQSuZOgvtPrUJ8"    target="_blank"><img src="jass manak.webp" class="card-2-img" /></a>
+      <a href="https://open.spotify.com/artist/2P9JaCtpbQSuZOgvtPrUJ8"  target="_blank"><p class="card-name">Jass Manak </p></a>
+      <a href="https://open.spotify.com/artist/2P9JaCtpbQSuZOgvtPrUJ8" target="_blank"><p class="card-description">Artist</p></a>
+      <br>
+    </div>
+    <div class="card-2">
+      <a href="https://open.spotify.com/artist/6DXgCv5s4qTAAfGCBhiXKg" target="_blank"><img src="artist dj kishu.jpeg" class="card-2-img" /></a>
+      <a href="https://open.spotify.com/artist/6DXgCv5s4qTAAfGCBhiXKg" target="_blank"><p class="card-name">DJ Kishu</p></a>
+      <a href="https://open.spotify.com/artist/6DXgCv5s4qTAAfGCBhiXKg" target="_blank"><p class="card-description">Artist </p></a>
+    </div>
+    <div class="card-2">
+      <a href="https://open.spotify.com/artist/2FKWNmZWDBZR4dE5KX4plR" target="_blank"><img src="diljit doshanjh.jpg" class="card-2-img" /></a>
+      <a href="https://open.spotify.com/artist/2FKWNmZWDBZR4dE5KX4plR" target="_blank"><p class="card-name">Diljit Dosanjh </p></a>
+      <a href="https://open.spotify.com/artist/2FKWNmZWDBZR4dE5KX4plR"  target="_blank"><p class="card-description">Artist</p></a>
+    </div>
+    <div class="card-2">
+      <a href="https://open.spotify.com/artist/2U5xsW8eldz3zpbPeH6DeC" target="_blank"> <img src="artist william.jpeg" class="card-2-img" /></a>
+      <a href="https://open.spotify.com/artist/2U5xsW8eldz3zpbPeH6DeC" target="_blank"><p class="card-name">William Hovell </p></a>
+      <a href="https://open.spotify.com/artist/2U5xsW8eldz3zpbPeH6DeC" target="_blank"> <p class="card-description">Artist </p></a>
+    </div>
+    <div class="card-2">
+      <a href="https://open.spotify.com/artist/0mJDQBWytBhOh5JB1DOQ1c"  target="
+      "> <img src="jasmine sandal.jpeg" class="card-2-img" /></a>
+      <a href="https://open.spotify.com/artist/0mJDQBWytBhOh5JB1DOQ1c" target="_blank"><p class="card-name">Jasmine Sandal</p></a>
+      <a href="https://open.spotify.com/artist/0mJDQBWytBhOh5JB1DOQ1c"  target="_blank"><p class="card-description">Artist</p></a>
+    </div>
+    <div class="card-2">
+      <a href="https://open.spotify.com/artist/6ueccXEHQs9U5ZLp5DzmVm"  target="_blank"><img src="artist nainsy.jpeg" class="card-2-img" /></a> 
+      <a href="https://open.spotify.com/artist/6ueccXEHQs9U5ZLp5DzmVm"  target="_blank"><p class="card-name">Nainsy </p></a>
+      <a href="https://open.spotify.com/artist/6ueccXEHQs9U5ZLp5DzmVm" target="_blank"><p class="card-description">Artist </p></a>
+    </div>
+    <div class="card-2">
+      <a href="https://open.spotify.com/artist/3ZxZ03fj3tXBZHZWzvaLSM" target="_blank"><img src="neeti mohan.jpeg" class="card-2-img" /></a>
+      <a href="https://open.spotify.com/artist/3ZxZ03fj3tXBZHZWzvaLSM" target="_blank"><p class="card-name">Neeti Mohan </p></a>
+      <a href="https://open.spotify.com/artist/3ZxZ03fj3tXBZHZWzvaLSM" target="_blank"><p class="card-description">Artist </p></a>
+    </div>
+  </div>
+
+
+  <h3  style="margin-top: 4rem;  margin-bottom: 2rem;  margin-left: 0.75rem;   font-size: 1.6rem;  " >More Like Pritam       <a href="https://www.spotify.com"  class="show-all-6" >Show all </a>       </h3>
+  <div class="cards-container">
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DXc4Q3d3cXLW2" target="_blank"><img src="kareena.jpeg"    class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DXc4Q3d3cXLW2"  target="_blank"><p class="card-name">Starring Kareena.. </p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DXc4Q3d3cXLW2" target="_blank"><p class="card-description">Essential tracks of Kareena Kapoor, all in...</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX2i4uWHGqlRC"  target="_blank"><img src="hritik.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX2i4uWHGqlRC" target="_blank"><p class="card-name">Starring Hrithik...</p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX2i4uWHGqlRC"  target="_blank"><p class="card-description">Essential tracks of Kareena Kapoor, all in...</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWYVnIg1FI2en" target="_blank"><img src="grwm.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWYVnIg1FI2en"  target="_blank"><p class="card-name">#GRWM Hindi </p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWYVnIg1FI2en" target="_blank"> <p class="card-description">Time to get ready with your favourite Bollywo.....</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWSG3ias7mSRY" target="_blank"><img src="chala chal.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWSG3ias7mSRY" target="_blank"><p class="card-name">Chala Chal </p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWSG3ias7mSRY"  target="_blank"><p class="card-description">Enjoy your walk with these tunes </p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/album/58sXAhNuvqeQK02UiIh7de" target="_blank"> <img src="halka halka.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/album/58sXAhNuvqeQK02UiIh7de"  target="_blank"><p class="card-name">Halka Halka (Fro...</p></a>
+      <a href="https://open.spotify.com/album/58sXAhNuvqeQK02UiIh7de" target="_blank">      <p class="card-description">Sunidhi Chauhan , Divya Kumar , Amit Trivedi....</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/track/1PH0yXNGtSZbL2eufpgFJ4" target="_blank"><img src="kurbaan.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/track/1PH0yXNGtSZbL2eufpgFJ4" target="_blank"><p class="card-name">Kurbaan (Origina..</p></a>
+      <a href="https://open.spotify.com/track/1PH0yXNGtSZbL2eufpgFJ4" target="_blank"><p class="card-description">Salim - Sulaiman  <br>  &#x2022;   By Spotify</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/album/3krigkIAxyZMBcxYfE0jlE" target="_blank"><img src="taare zameen.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/album/3krigkIAxyZMBcxYfE0jlE" target="_blank"><p class="card-name">Taare Zameen Par </p></a>
+      <a href="https://open.spotify.com/album/3krigkIAxyZMBcxYfE0jlE"  target="_blank"><p class="card-description">Shankar - Ehsaan - Loy   <br>  &#x2022;   By Spotify   </p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWXtlo6ENS92N" target="_blank"><img src="butter.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWXtlo6ENS92N" target="_blank"><p class="card-name">Bollywood Butter </p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWXtlo6ENS92N" target="_blank"><p class="card-description">B bole to Biggest blockbusters , right her..</p></a>
+    </div>
+  </div>
+
+
+
+
+  <h3  style="margin-top: 4rem;  margin-bottom: 2rem;  margin-left: 0.75rem;   font-size: 1.6rem;  " >Episodes For You <a href="https://www.spotify.com"  class="show-all-6" >Show all </a>       </h3>
+  <div class="cards-container">
+    <div class="card">
+      <a href="https://open.spotify.com/episode/1x1YHdOpYAjwR48eoz1yLL" target="_blank"><img src="mahabharata.jpeg"    class="card-img" /></a>
+      <a href="https://open.spotify.com/episode/1x1YHdOpYAjwR48eoz1yLL"  target="_blank"><p class="card-name">Mahabharata Epis... </p></a>
+      <a href="https://open.spotify.com/episode/1x1YHdOpYAjwR48eoz1yLL" target="_blank"><p class="card-description">April 2014    <i class="fa-solid fa-circle"   id="dot" ></i>  24 min</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/episode/5WTV4Z50rsN6ms4qqlfetf" target="_blank"><img src="shrimad.jpeg"    class="card-img" /></a>
+      <a href="https://open.spotify.com/episode/5WTV4Z50rsN6ms4qqlfetf"  target="_blank"><p class="card-name">SHRIMAD BHAG...</p></a>
+      <a href="https://open.spotify.com/episode/5WTV4Z50rsN6ms4qqlfetf" target="_blank"><p class="card-description">July 2021    <i class="fa-solid fa-circle"   id="dot" ></i>  12 min</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/episode/6dsQO1yoVDgKqMy9YbKvKT" target="_blank"><img src="khooni.jpeg"    class="card-img" /></a>
+      <a href="https://open.spotify.com/episode/6dsQO1yoVDgKqMy9YbKvKT"  target="_blank"><p class="card-name">Khooni Monday Ki...</p></a>
+      <a href="https://open.spotify.com/episode/6dsQO1yoVDgKqMy9YbKvKT" target="_blank"><p class="card-description">April  4    <i class="fa-solid fa-circle"   id="dot" ></i>  33 min</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/episode/0WL1Wb6NYiMeziqwCcb5dG" target="_blank"><img src="doro.jpeg"    class="card-img" /></a>
+      <a href="https://open.spotify.com/episode/0WL1Wb6NYiMeziqwCcb5dG"  target="_blank"><p class="card-name">Anbaana Doro...</p></a>
+      <a href="https://open.spotify.com/episode/0WL1Wb6NYiMeziqwCcb5dG" target="_blank"><p class="card-description">Feb 17   <i class="fa-solid fa-circle"   id="dot" ></i>  28 min</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/episode/6UHsfGQ1FLUZqfG5czi4ND" target="_blank"><img src="rich.jpeg"    class="card-img" /></a>
+      <a href="https://open.spotify.com/episode/6UHsfGQ1FLUZqfG5czi4ND"  target="_blank"><p class="card-name">RICH DAD PO..</p></a>
+      <a href="https://open.spotify.com/episode/6UHsfGQ1FLUZqfG5czi4ND" target="_blank"><p class="card-description">Aug 2022     <i class="fa-solid fa-circle"   id="dot" ></i>  31 min</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/episode/6COBksFDvL1drxy7XHY5E3" target="_blank"><img src="duttie.jpeg"    class="card-img" /></a>
+      <a href="https://open.spotify.com/episode/6COBksFDvL1drxy7XHY5E3"  target="_blank"><p class="card-name">Duti Shottie Bh..</p></a>
+      <a href="https://open.spotify.com/episode/6COBksFDvL1drxy7XHY5E3" target="_blank"><p class="card-description">July 14    <i class="fa-solid fa-circle"   id="dot" ></i>  17 min</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/episode/4u5XwgmcgsreQ3Vj5aGNxf" target="_blank"><img src="storm.jpeg"    class="card-img" /></a>
+      <a href="https://open.spotify.com/episode/4u5XwgmcgsreQ3Vj5aGNxf"  target="_blank"><p class="card-name">A relaxing storm...</p></a>
+      <a href="https://open.spotify.com/episode/4u5XwgmcgsreQ3Vj5aGNxf" target="_blank"><p class="card-description">April 20   <i class="fa-solid fa-circle"   id="dot" ></i>  481 min</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/episode/38HkNglpjqxKY3JBar1BPD" target="_blank"><img src="taare zameen.jpeg"    class="card-img" /></a>
+        <a href="https://open.spotify.com/episode/38HkNglpjqxKY3JBar1BPD"  target="_blank"><p class="card-name"> Taare Zameen par...</p></a>
+      <a href="https://open.spotify.com/episode/38HkNglpjqxKY3JBar1BPD" target="_blank"><p class="card-description">March 2022    <i class="fa-solid fa-circle"   id="dot" ></i>  4 min</p></a>
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <h3  style="margin-top: 4rem;  margin-bottom: 2rem;  margin-left: 0.75rem;   font-size: 1.6rem;  " >More Like Rabiul Rhmn <a href="https://www.spotify.com"  class="show-all-7" >Show all </a></h3>
+  <div class="cards-container">
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWXVJK4aT7pmk"  target="_blank"><img src="hits.jpeg"    class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWXVJK4aT7pmk"  target="_blank"><p class="card-name">Hots Hits Punjabi </p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWXVJK4aT7pmk" target="_blank"><p class="card-description">Catch the hottest Punjabi tracks with.....</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DXbVhgADFy3im"  target="_blank"><img src="trending.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DXbVhgADFy3im"  target="_blank"><p class="card-name">Trending New In..</p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DXbVhgADFy3im"  target="_blank"><p class="card-description">Every track you're listening/should be....</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/track/2u21x0zeZRBZjxG4QVkDXC" target="_blank"><img src="labon ko.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/track/2u21x0zeZRBZjxG4QVkDXC"  target="_blank"><p class="card-name">Labon Ko </p></a>
+      <a href="https://open.spotify.com/track/2u21x0zeZRBZjxG4QVkDXC"  target="_blank"><p class="card-description">Uday Biswas  yu<br>  &#x2022;   By Spotify  </p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/track/56zZ48jdyY2oDXHVnwg5Di"  target="_blank"><img src="tum se hi.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/track/56zZ48jdyY2oDXHVnwg5Di"  target="_blank"><p class="card-name">Tum Hi Ho (Slo...</p></a>
+      <a href="https://open.spotify.com/track/56zZ48jdyY2oDXHVnwg5Di"  target="_blank"><p class="card-description">Dj Vishu , Arijit Singh    <br> &#x2022;   By Spotify  </p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/track/4h2bpqHUs3miEIDMXXBoIH"  target="_blank"><img src="re kabira.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/track/4h2bpqHUs3miEIDMXXBoIH" target="_blank"><p class="card-name">Re Kabira  </p></a>
+      <a href="https://open.spotify.com/track/4h2bpqHUs3miEIDMXXBoIH" target="_blank"><p class="card-description">Favas Fazin  <br>  &#x2022;   By Spotify </p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/album/5MxTI8MebMm1znQODHBoz7" target="_blank"><img src="malang sajna.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/album/5MxTI8MebMm1znQODHBoz7" target="_blank"><p class="card-name">Malang Sajna </p></a>
+      <a href="https://open.spotify.com/album/5MxTI8MebMm1znQODHBoz7" target="_blank"><p class="card-description"> Dj Vishu  <br>  &#x2022;   By Spotify</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWZEYG45EmWYV"  target="_blank"><img src="trending new punjabi.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWZEYG45EmWYV"  target="_blank"><p class="card-name">Trending New Pu..</p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWZEYG45EmWYV"  target="_blank"><p class="card-description">All that's viral , stream now!  </p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/album/58sXAhNuvqeQK02UiIh7de" target="_blank"><img src="halka halka.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/album/58sXAhNuvqeQK02UiIh7de"  target="_blank"><p class="card-name">Halka Halka (Fro...</p></a>
+      <a href="https://open.spotify.com/album/58sXAhNuvqeQK02UiIh7de"  target="_blank"><p class="card-description">Sunidhi Chauhan , Divya Kumar , Amit Trivedi....</p></a>
+    </div>
+  </div>
+
+
+  <h3  style="margin-top: 4rem;  margin-bottom: 2rem;  margin-left: 0.75rem;   font-size: 1.6rem;  " >Recommended Radio  <a href="https://www.spotify.com"  class="show-all-8" >Show all</a>             </h3>
+  <div class="cards-container">
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/5BjJUBvXnWj5eScWyfqX6E"  target="_blank"><img src="radio bass boosted.jpeg"    class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/5BjJUBvXnWj5eScWyfqX6E"  target="_blank"><p class="card-name">Bass Boosted </p></a>
+      <a href="https://open.spotify.com/playlist/5BjJUBvXnWj5eScWyfqX6E"  target="_blank"><p class="card-description">By Spotify </p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/artist/7kPHFT9DS51L9huaEStGpI" target="_blank"><img src="radio bollywood.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/artist/7kPHFT9DS51L9huaEStGpI"  target="_blank"><p class="card-name">Bollywood Bras....</p></a>
+      <a href="https://open.spotify.com/artist/7kPHFT9DS51L9huaEStGpI"  target="_blank"><p class="card-description">By Spotify</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/episode/7xi1YEsxoYrHiAase3i8Uf" target="_blank"><img src="radio nath.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/episode/7xi1YEsxoYrHiAase3i8Uf"  target="_blank"><p class="card-name">Priyanka Nath  </p></a>
+      <a href="https://open.spotify.com/episode/7xi1YEsxoYrHiAase3i8Uf"  target="_blank"><p class="card-description">By  Spotify  </p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1E4yeM7m8veTN7" target="_blank"><img src="radio pritam.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1E4yeM7m8veTN7" target="_blank"><p class="card-name">Jeet - Pritam </p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1E4yeM7m8veTN7" target="_blank"><p class="card-description">  By Spotify  </p></a>
+    </div>
+    <div class="card">
+      <a href="0ofMkI3jzmGCElAOgOLeo3"  target="_blank"><img src="radio rythm.jpeg" class="card-img" /></a>
+      <a href="0ofMkI3jzmGCElAOgOLeo3" target="_blank"><p class="card-name">The Rhythm of.... </p></a>
+      <a href="0ofMkI3jzmGCElAOgOLeo3"  target="_blank"><p class="card-description"> By Spotify </p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/artist/1IEqJhjUAA0qZ6L020TQdt"  target="_blank"><img src="radio shrylox.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/artist/1IEqJhjUAA0qZ6L020TQdt"  target="_blank"><p class="card-name">Shrylox </p></a>
+      <a href="https://open.spotify.com/artist/1IEqJhjUAA0qZ6L020TQdt"  target="_blank"><p class="card-description"> By Spotify</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/track/56zZ48jdyY2oDXHVnwg5Di"  target="_blank"><img src="radio tum se hi.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/track/56zZ48jdyY2oDXHVnwg5Di"  target="_blank"><p class="card-name">Tum Hi Ho </p></a>
+      <a href="https://open.spotify.com/track/56zZ48jdyY2oDXHVnwg5Di"  target="_blank"><p class="card-description">By Spotify  </p></a>
+    </div>
+  </div>
+
+  
+  <h3  style="margin-top: 4rem;  margin-bottom: 0rem;  margin-left: 0.75rem;   font-size: 1.6rem;  " >Today's Biggest Hits  </h3>
+  <a href="https://www.spotify.com"  class="show-all-9" >Show all </a> 
+  <div class="cards-container-01">
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX0XUfTFmNBRM"  target="_blank"><img src="hot hits hindi.jpeg"    class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX0XUfTFmNBRM"  target="_blank"><p class="card-name">Hots Hits Hindi </p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX0XUfTFmNBRM" target="_blank"><p class="card-description">Hottest Hindi music served here, Cover...</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWXtlo6ENS92N" target="_blank"><img src="butter.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWXtlo6ENS92N"  target="_blank"><p class="card-name">Bollywood Butter </p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWXtlo6ENS92N "  target="_blank"><p class="card-description">B bole to Biggest blockbusters, right her...</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX5cZuAHLNjGz" target="_blank"><img src="punjabi 101.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX5cZuAHLNjGz"  target="_blank"><p class="card-name">Punjabi 101 </p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX5cZuAHLNjGz" target="_blank"><p class="card-description">Ultimate 101 Punjabi hits with Harrdy Sandhu </p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWTqYqGLu7kTX" target="_blank"><img src="hip te hop.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWTqYqGLu7kTX" target="_blank"><p class="card-name">Hip Te Hop </p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWTqYqGLu7kTX" target="_blank"><p class="card-description">This is How we do it, This is our style, Cover...</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX5VOFoIqmrOV" target="_blank"><img src="tollywood pearls.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX5VOFoIqmrOV"  target="_blank"><p class="card-name">Tollywood Pearls </p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX5VOFoIqmrOV" target="_blank"><p class="card-description">The finest set of Telugu music from the past 5...</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX1i3hvzHpcQV"  target="_blank"><img src="hot hits tamil.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX1i3hvzHpcQV" target="_blank"><p class="card-name">Hot Hits Tamil </p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX1i3hvzHpcQV" target="_blank"><p class="card-description"> Tune into the Hottest tracks of Kollywood!..</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX0TyiNWW7uUQ" target="_blank"><img src="kollywood cream.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX0TyiNWW7uUQ" target="_blank"><p class="card-name">Kollywood Cream </p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX0TyiNWW7uUQ" target="_blank"><p class="card-description">Finest collection of Tamil Music from the...</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWVDCraF986xg" target="_blank"><img src="puniabi x.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWVDCraF986xg" target="_blank"><p class="card-name">Punjabi X </p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWVDCraF986xg" target="_blank"><p class="card-description">Catch all the collaborations and...</p></a>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+  <h3  style="margin-top: 4rem;  margin-bottom: 0rem;  margin-left: 0.75rem;   font-size: 1.6rem;  " >Featured Charts</h3>
+  <a href="https://www.spotify.com"  class="show-all-9" >Show all </a> 
+  <div class="cards-container-01">
+    <div class="card-sound">
+      <a href="https://open.spotify.com/playlist/37i9dQZEVXbNG2KDcFcKOF"  target="_blank"><img src="featured chart.jpg"    class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZEVXbNG2KDcFcKOF"  target="_blank"><p class="card-name">Top songs Global </p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZEVXbNG2KDcFcKOF" target="_blank"><p class="card-description">Your weekly update of the most played tracks...</p></a>
+    </div>
+    <div class="card-sound">
+      <a href="https://open.spotify.com/playlist/37i9dQZEVXbMWDif5SCBJq" target="_blank"><img src="top songs india.jpg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZEVXbMWDif5SCBJq"  target="_blank"><p class="card-name">Top Songs India </p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZEVXbMWDif5SCBJq "  target="_blank"><p class="card-description">Your weekly update of the most played tracks...</p></a>
+    </div>
+    <div class="card-sound">
+      <a href="https://open.spotify.com/playlist/37i9dQZEVXbMDoHDwVN2tF" target="_blank"><img src="top 50 global.jpg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZEVXbMDoHDwVN2tF"  target="_blank"><p class="card-name">Top 50 - Global </p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZEVXbMDoHDwVN2tF" target="_blank"><p class="card-description">Your daily update of the most played tracks...</p></a>
+    </div>
+    <div class="card-sound">
+      <a href="https://open.spotify.com/playlist/37i9dQZEVXbLZ52XmnySJg" target="_blank"><img src="top 50.jpg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZEVXbLZ52XmnySJg" target="_blank"><p class="card-name">Top 50 - India </p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZEVXbLZ52XmnySJg" target="_blank"><p class="card-description">Your daily update of the most played tracks...</p></a>
+    </div>
+    <div class="card-sound">
+      <a href="https://open.spotify.com/playlist/37i9dQZEVXbLiRSasKsNU9" target="_blank"><img src="viral 50 global.jpg" class="card-img" /></a>
+       <a href="https://open.spotify.com/playlist/37i9dQZEVXbLiRSasKsNU9"  target="_blank"><p class="card-name">Viral 50 - Global </p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZEVXbLiRSasKsNU9" target="_blank"><p class="card-description">Your daily update of the most played tracks...</p></a>
+    </div>
+    <div class="card-sound">
+      <a href="https://open.spotify.com/playlist/37i9dQZEVXbK4NvPi6Sxit"  target="_blank"><img src="viral 50 india.jpg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZEVXbK4NvPi6Sxit" target="_blank"><p class="card-name">Viral 50 - India </p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZEVXbK4NvPi6Sxit" target="_blank"><p class="card-description">Your daily update of the most played tracks...</p></a>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <h3  style="margin-top: 4rem;  margin-bottom: 0rem;  margin-left: 0.75rem;   font-size: 1.6rem;  " >Mood</h3>
+  <a href="https://www.spotify.com"  class="show-all-9" >Show all </a> 
+  <div class="cards-container-01">
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX9L0PulSSl2E"  target="_blank"><img src="chill karlo.jpeg"    class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX9L0PulSSl2E"  target="_blank"><p class="card-name">Chill Karlo </p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX9L0PulSSl2E" target="_blank"><p class="card-description">Sit Back, Unwind Te Thand Rakho! Cover....</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWSRc3WJklgBs" target="_blank"><img src="Heart Beats.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWSRc3WJklgBs"  target="_blank"><p class="card-name">Heart Beats </p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWSRc3WJklgBs "  target="_blank"><p class="card-description">Dance music for the heart <3</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWZeKCadgRdKQ" target="_blank"><img src="deep focus.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWZeKCadgRdKQ"  target="_blank"><p class="card-name">Deep Focus </p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWZeKCadgRdKQ" target="_blank"><p class="card-description">Keep calm and focus with ambient and post.....</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWSqBruwoIXkA" target="_blank"><img src="sad hour.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWSqBruwoIXkA" target="_blank"><p class="card-name">Sad Hour  </p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWSqBruwoIXkA" target="_blank"><p class="card-description">Somehow heartbreak feels good in a place li......</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWWQRwui0ExPn" target="_blank"><img src="lofi beats.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWWQRwui0ExPn"  target="_blank"><p class="card-name">Lofi Beats </p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWWQRwui0ExPn" target="_blank"><p class="card-description">chill beats , lofi vibes , new tracks every week.....</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWZKuerrwoAGz"  target="_blank"><img src="happy fovourites.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWZKuerrwoAGz" target="_blank"><p class="card-name">Happy Favorites </p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWZKuerrwoAGz" target="_blank"><p class="card-description"> Put a smile on your face with these happy tunes....</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWZd79rJ6a7lp" target="_blank"><img src="sleep.jpg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWZd79rJ6a7lp" target="_blank"><p class="card-name">Sleep  </p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWZd79rJ6a7lp" target="_blank"><p class="card-description">Gentle Ambient piano to help you fall asleep </p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX3YSRoSdA634" target="_blank"><img src="life sucks.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX3YSRoSdA634" target="_blank"><p class="card-name">Life Sucks </p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX3YSRoSdA634" target="_blank"><p class="card-description">Having a bad day ? We know how it feels!</p></a>
+    </div>
+  </div>
+
+
+
+
+
+  <h3  style="margin-top: 4rem;  margin-bottom: 0rem;  margin-left: 0.75rem;   font-size: 1.6rem;  " >Workout</h3>
+  <a href="https://www.spotify.com"  class="show-all-9" >Show all </a> 
+  <div class="cards-container-01">
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX76Wlfdnj7AP"  target="_blank"><img src="best mode.jpeg"    class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX76Wlfdnj7AP"  target="_blank"><p class="card-name">Beast Mode </p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX76Wlfdnj7AP" target="_blank"><p class="card-description">Get your beast mode on!....</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX70RN3TfWWJh" target="_blank"><img src="workout (2).jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX70RN3TfWWJh"  target="_blank"><p class="card-name">Workout </p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX70RN3TfWWJh "  target="_blank"><p class="card-description">Pop hits to keep your workout fresh, <3</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX9s3cYAeKW5d" target="_blank"><img src="hip hop.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX9s3cYAeKW5d"  target="_blank"><p class="card-name">Hip - Hop work...</p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX9s3cYAeKW5d" target="_blank"><p class="card-description">Tracks Med God Energi!......</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX4osfY3zybD2" target="_blank"><img src="retro running.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX4osfY3zybD2" target="_blank"><p class="card-name">Retro Running </p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX4osfY3zybD2" target="_blank"><p class="card-description">Up for a nostalgic running session?....</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX9BXb6GsGCLl" target="_blank"><img src="powerwalk.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX9BXb6GsGCLl"  target="_blank"><p class="card-name">Popwerwalk </p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DX9BXb6GsGCLl" target="_blank"><p class="card-description">Fuel your powerwalk with these upbeat and.....</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DXdURFimg6Blm"  target="_blank"><img src="beast mode dnce.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DXdURFimg6Blm" target="_blank"><p class="card-name">Beast mode Dance </p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DXdURFimg6Blm" target="_blank"><p class="card-description">Dance tracks for a big workout.....</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWV3VLITCZusq" target="_blank"><img src="pop rock run.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWV3VLITCZusq" target="_blank"><p class="card-name">Pop Rock Run </p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DWV3VLITCZusq" target="_blank"><p class="card-description">The perfect pop rock running mix.......</p></a>
+    </div>
+    <div class="card">
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DXdMm3yYbD7IO" target="_blank"><img src="90ws workout.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DXdMm3yYbD7IO" target="_blank"><p class="card-name">90's Workoutv </p></a>
+      <a href="https://open.spotify.com/playlist/37i9dQZF1DXdMm3yYbD7IO" target="_blank"><p class="card-description">Move your body with your favorite 90s songs.....</p></a>
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <h3  style="margin-top: 4rem;  margin-bottom: 0rem;  margin-left: 0.75rem;   font-size: 1.6rem;  " >Sound Of India </h3>
+  <a href="https://www.spotify.com"  class="show-all-9" >Show all </a> 
+  <div class="cards-container-01">
+    <div class="card-sound">
+      <a href="https://open.spotify.com/playlist/3MSEZ4IGrSMnWNIwnYmPtd"  target="_blank"><img src="mumbai.jpeg"    class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/3MSEZ4IGrSMnWNIwnYmPtd"  target="_blank"><p class="card-name">The sound of Mumbai</p></a>
+      <a href="https://open.spotify.com/playlist/3MSEZ4IGrSMnWNIwnYmPtd" target="_blank"><p class="card-description">The songs that define , unite and distinguish....</p></a>
+    </div>
+    <div class="card-sound">
+      <a href="https://open.spotify.com/playlist/6V9jhLfmJXsdkaCtdLoiZr" target="_blank"><img src="kolkata.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/6V9jhLfmJXsdkaCtdLoiZr"  target="_blank"><p class="card-name">The sound of Kolkata</p></a>
+      <a href="https://open.spotify.com/playlist/6V9jhLfmJXsdkaCtdLoiZr "  target="_blank"><p class="card-description">The song that define , unite and distinguish...</p></a>
+    </div>
+    <div class="card-sound">
+      <a href="https://open.spotify.com/playlist/10istDPCOPLqoiSUPuFhkg" target="_blank"><img src="delhi.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/10istDPCOPLqoiSUPuFhkg"  target="_blank"><p class="card-name">The sound of Delhi </p></a>
+      <a href="https://open.spotify.com/playlist/10istDPCOPLqoiSUPuFhkg" target="_blank"><p class="card-description">The song that define , unite and distinguish...</p></a>
+    </div>
+    <div class="card-sound">
+      <a href="https://open.spotify.com/playlist/6J01WgQNYVsItQHFl9t8hD" target="_blank"><img src="bengaluru.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/6J01WgQNYVsItQHFl9t8hD" target="_blank"><p class="card-name">The sound of Beng...</p></a>
+      <a href="https://open.spotify.com/playlist/6J01WgQNYVsItQHFl9t8hD" target="_blank"><p class="card-description">The song that define , unite and distinguish...</p></a>
+    </div>
+    <div class="card-sound">
+      <a href="https://open.spotify.com/playlist/08QV4kzSYj9EkLhFlBpr47" target="_blank"><img src="chennai.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/08QV4kzSYj9EkLhFlBpr47"  target="_blank"><p class="card-name">The sound of Chennai</p></a>
+      <a href="https://open.spotify.com/playlist/08QV4kzSYj9EkLhFlBpr47" target="_blank"><p class="card-description">The song that define , unite and distinguish...</p></a>
+    </div>
+    <div class="card-sound">
+      <a href="https://open.spotify.com/playlist/3Z4MwJ8En69rUvBVPIIzGQ"  target="_blank"><img src="hyderabad.jpeg" class="card-img" /></a>
+      <a href="https://open.spotify.com/playlist/3Z4MwJ8En69rUvBVPIIzGQ" target="_blank"><p class="card-name">The sound of Hydera...</p></a>
+      <a href="https://open.spotify.com/playlist/3Z4MwJ8En69rUvBVPIIzGQ" target="_blank"><p class="card-description">The song that define , unite and distinguish...</p></a>
+    </div>
+  </div>
+
+
+
+
+
+
+<footer>
+
+ <div class="first-line" >
+ <ul>
+  <p>Company </p>
+  <a href="https://www.spotify.com">About </a>
+  <a href="https://www.spotify.com">Jobs</a>
+  <a href="https://www.spotify.com">For the Record </a>
+ </ul>
+ <ul>
+  <p>Communities</p>
+  <a href="https://www.spotify.com">For Artists </a>
+  <a href="https://www.spotify.com">Developers</a>
+  <a href="https://www.spotify.com">Advertising </a>
+  <a href="https://www.spotify.com">Investors </a>
+  <a href="https://www.spotify.com">Vendors </a>
+  <a href="https://www.spotify.com">Spotify for work</a>
+ </ul>
+ <ul>
+  <p>Useful Links </p>
+  <a href="https://www.spotify.com">Support</a>
+  <a href="https://www.spotify.com">Free Mobile App </a>
+ </ul>
+ <i class="fa-brands fa-instagram"   id="footer-symbols-1"  ></i>
+ <i class="fa-brands fa-twitter"    id="footer-symbols-2" ></i>
+ <i class="fa-brands fa-facebook"   id="footer-symbols-3" ></i>
+ </div>
+ <div class="last-line">
+  <p>
+© 2023 Spotify AB
+  </p>
+ </div>
+
+</footer>
+
+
+
+</div>
+
+
+
+
+<div class="player">
+  <a href="https://open.spotify.com/track/2LlJoY7RdkbozvSXg92anS"  target="_blank" ><img src="sajan raazi.jpeg"  class="player-song"  ></a>
+  <a href=""></a>
+  <a href="https://open.spotify.com/track/2LlJoY7RdkbozvSXg92anS"  target="_blank"><p class="name-of-player-song"  >Sajjan Raazi </p></a>
+  <a href=" https://open.spotify.com/track/2LlJoY7RdkbozvSXg92anS"> <p  class="singer" >Satinder Sartaaj </p>  </a>
+    <i class="fa-regular fa-heart"  id="liked-songs" ></i>
+  <div class="volume-controls"></div>
+  <div class="player-center">
+    <div class="player-controls">
+      <img
+        style="height: 1rem; margin-right: 2.5rem; opacity: 0.8 ; margin-bottom: 0.75rem;  "
+        src="shuffle.png"
+      />
+      <img
+        style="height: 1rem; margin-right: 2.5rem; opacity: 0.8 ; margin-bottom: 0.75rem;  "
+        src="previous_musicbar.png"
+      />
+      <img
+        style="height: 2.4rem; margin-right: 2.5rem  ;  margin-bottom: 0.73rem;"
+        src="play_musicbar.png"   
+      />
+      <img
+        style="height: 1rem; margin-right: 2.5rem; opacity: 0.8 ; margin-bottom: 0.75rem;  "
+        src="next_musicbar.png"
+      />
+      <img
+        style="height: 1rem; margin-right: 2.5rem; opacity: 0.8 ; margin-left: 0.5rem;  margin-bottom: 0.75rem; "
+        src="loop.png"
+      />
+    </div>
+    <div class="player-timeline">
+      <span class="current-time">0:00</span>
+      <input
+        type="range"
+        class="timeline-slider"
+        min="0"
+        max="100"
+        step="1"
+        value="0"
+      />
+      <span class="total-time">0:00</span>
+    </div>
+  </div>
+
+  <div class="volume-controls">
+    <img
+      src="device.png"
+      style="height: 1rem; margin-right: 1rem; opacity: 0.8"
+      alt="Volume"
+    />
+    <img
+      src="playlist.png"
+      style="height: 1rem; margin-right: 1rem; opacity: 0.8"
+      alt="Settings"
+    />
+    <img
+      src="music.png"
+      style="height: 1rem; margin-right: 1rem; opacity: 0.8"
+      alt="Fullscreen"
+    />
+    <input
+      type="range"
+      class="volume-slider"
+      min="0"
+      max="100"
+      step="1"
+      value="50"
+    />
+  </div>
+</div>
+
+</div>
+
+  </body>
+  </html
